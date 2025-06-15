@@ -3,12 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Coaching - Life Coach & Business Consultant</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
   <body>
     <!-- Main Header -->
     <header class="main-header">
-      <div class="header-container">
+      <div class="container">
         <a href="index.html" class="site-logo">COACHING</a>
 
         <nav class="main-navigation">
@@ -29,10 +35,10 @@
               <a href="#services" class="nav-link">Services</a>
             </li>
             <li class="menu-item">
-              <a href="blog.html" class="nav-link">Blog</a>
+              <a href="#blog" class="nav-link">Blog</a>
             </li>
             <li class="menu-item">
-              <a href="contact.html" class="nav-link">Contact</a>
+              <a href="#contact" class="nav-link">Contact</a>
             </li>
           </ul>
         </nav>
@@ -41,48 +47,50 @@
 
     <!-- Hero Section -->
     <section class="hero-section">
-      <div class="hero-container">
+      <div class="container">
         <div class="hero-content">
-          <span class="hero-subtitle">Welcome to Coaching</span>
-          <h1 class="hero-title">I'm a Business Coach</h1>
+          <h1 class=" title banner-title">I'm Professional Life Coach</h1>
           <p class="hero-description">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
-          <div class="hero-buttons">
-            <a href="#" class="primary-button">Our Services</a>
-            <a href="#" class="secondary-button">Contact Us</a>
+          <div class="hero-button">
+            <a href="#contact" class="secondary-button">Contact Us</a>
+          </div>
+          <div>
+            <img src="./assets/images/hero.jpg.webp" alt="hero" width="1110" />
           </div>
         </div>
       </div>
     </section>
 
+    <hr />
+
     <!-- About Section -->
-    <section class="intro-section" id="about">
+    <section class="about-section" id="about">
       <div class="container">
-        <div class="intro-content">
-          <div class="intro-text">
-            <h2 class="intro-title">Welcome To My Website</h2>
-            <p class="intro-paragraph">
+        <div class="about-content">
+          <div class="about-text">
+            <h2 class="section-title">Welcome To My Website</h2>
+            <p class="section-paragraph">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem,
               temporibus accusamus placeat recusandae laudantium id quia
               obcaecati explicabo ea commodi.
             </p>
-            <p class="intro-paragraph">
+            <p class="about-paragraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
               neque, delectus labore incidunt voluptate possimus? Necessitatibus
               amet nobis sapiente recusandae illo omnis quam quis corrupti.
               Eveniet veniam velit sunt pariatur..
             </p>
-            <p class="intro-paragraph">
+            <p class="about-paragraph">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
               est molestias illum illo ducimus nisi molestiae amet quae, dolor
               fugiat perferendis facere quibusdam repudiandae, ut modi
               obcaecati.
             </p>
           </div>
-          <div class="intro-features">
-            <article class="feature-item">
+          <div class="about-features">
+            <div class="feature-item">
               <div class="feature-icon">
                 <i class="fa-solid fa-sack-dollar"></i>
               </div>
@@ -91,8 +99,8 @@
                 Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia, there live the blind texts.
               </p>
-            </article>
-            <article class="feature-item">
+            </div>
+            <div class="feature-item">
               <div class="feature-icon">
                 <i class="fa-solid fa-universal-access"></i>
               </div>
@@ -101,18 +109,20 @@
                 Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia, there live the blind texts.
               </p>
-            </article>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
+    <hr />
 
     <!-- Our Training Section -->
     <section class="training-section" id="training">
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Life Coach Training</h2>
-          <p class="section-subtitle">
+          <p class="section-paragraph">
             Even the all-powerful Pointing has no control about the blind texts
             it is an almost unorthographic life. One day however a small line of
             blind text by the name of Lorem Ipsum decided to leave for the far
@@ -121,14 +131,14 @@
         </div>
 
         <div class="training-cards">
-          <article class="training-card">
-            <figure class="card-image">
+          <div class="training-card">
+            <div class="card-image">
               <img
                 src="./assets/images/coach_1_sm.jpg.webp"
                 alt="Person reading a business guide"
                 width="356"
               />
-            </figure>
+            </div>
             <div class="card-content">
               <h3 class="card-title">Life Coach Training</h3>
               <p class="card-description">
@@ -137,16 +147,16 @@
                 ipsum ducimus.
               </p>
             </div>
-          </article>
+          </div>
 
-          <article class="training-card">
-            <figure class="card-image">
+          <div class="training-card">
+            <div class="card-image">
               <img
                 src="./assets/images/coach_2_sm.jpg.webp"
                 alt="Man giving a presentation in a classroom"
                 width="356"
               />
-            </figure>
+            </div>
             <div class="card-content">
               <h3 class="card-title">Release Your Potential</h3>
               <p class="card-description">
@@ -155,16 +165,16 @@
                 ipsum ducimus.
               </p>
             </div>
-          </article>
+          </div>
 
-          <article class="training-card">
-            <figure class="card-image">
+          <div class="training-card">
+            <div class="card-image">
               <img
                 src="./assets/images/coach_3_sm.jpg.webp"
                 alt="Team discussion in an office space"
                 width="356"
               />
-            </figure>
+            </div>
             <div class="card-content">
               <h3 class="card-title">Transforming Lives</h3>
               <p class="card-description">
@@ -173,13 +183,15 @@
                 ipsum ducimus.
               </p>
             </div>
-          </article>
+          </div>
         </div>
       </div>
     </section>
 
+    <hr />
+
     <!-- Testimonials Section -->
-    <section class="testimonials-section" id="testimonials">
+    <section class="testimonial-section" id="testimonials">
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Happy Customers</h2>
@@ -197,34 +209,35 @@
           </blockquote>
 
           <div class="testimonial-author">
-            <figure class="author-photo">
+            <div class="author-photo">
               <img
                 src="./assets/images/person_1.jpg.webp"
                 alt="Photo of Ricky Fisher"
                 width="70"
               />
-            </figure>
-            <figcaption class="author-name">Ricky Fisher</figcaption>
+            </div>
+            <div class="author-name">Ricky Fisher</div>
           </div>
         </div>
       </div>
     </section>
 
+    <hr />
+
     <!-- Services Section -->
-    <section class="training-section" id="services">
+    <section class="service-section" id="services">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Life Coach Training</h2>
-          <p class="section-description">
-            Even the all-powerful Pointing has no control about the blind texts
-            it is an almost unorthographic life. One day however a small line of
-            blind text by the name of Lorem Ipsum decided to leave for the far
-            World of Grammar.
+          <h2 class="section-title">Our Services</h2>
+          <p class="section-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            eveniet assumenda molestias quae in, distinctio rem veritatis
+            praesentium?
           </p>
         </div>
 
-        <div class="training-cards">
-          <article class="training-card">
+        <div class="service-cards">
+          <div class="service-card">
             <div><i class="fa-brands fa-telegram"></i></div>
             <div class="card-content">
               <h3 class="card-title">Transforming Lives</h3>
@@ -234,8 +247,9 @@
                 ipsum ducimus.
               </p>
             </div>
-          </article>
-          <article class="training-card">
+          </div>
+
+          <div class="service-card">
             <div><i class="fa-solid fa-graduation-cap"></i></div>
             <div class="card-content">
               <h3 class="card-title">Online Coaching</h3>
@@ -245,9 +259,9 @@
                 ipsum ducimus.
               </p>
             </div>
-          </article>
+          </div>
 
-          <article class="training-card">
+          <div class="service-card">
             <div><i class="fa-solid fa-bullseye"></i></div>
             <div class="card-content">
               <h3 class="card-title">Release Your Potential</h3>
@@ -257,14 +271,228 @@
                 ipsum ducimus.
               </p>
             </div>
-          </article>
+          </div>
         </div>
       </div>
     </section>
 
+    <hr />
+
+    <!-- Blog Section -->
+    <section class="blog-section" id="blog">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Our Blog</h2>
+          <p class="section-paragraph">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est maxime
+            adipisci incidunt voluptatum pariatur. Officia eaque ipsum ducimus.
+          </p>
+        </div>
+
+        <div class="blog-grid">
+          <div class="blog-post">
+            <div class="post-image">
+              <img
+                src="./assets/images/blog1.webp"
+                alt="Person reading business guide book"
+                width="190"
+              />
+            </div>
+            <div class="post-content">
+              <h3 class="post-title">Coaching Life Is Better Than Schooling</h3>
+              <span class="post-date" datetime="2019-04-17"
+                >April 17, 2019</span
+              >
+              <p class="post-summary">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
+                maxime adipisci incidunt voluptatum pariatur. Officia eaque
+                ipsum ducimus.
+              </p>
+              <span class="read-more">Read More..</span>
+            </div>
+          </div>
+
+          <div class="blog-post">
+            <div class="post-image">
+              <img
+                src="./assets/images/blog2.webp"
+                alt="Person reading business guide book"
+                width="190"
+              />
+            </div>
+            <div class="post-content">
+              <h3 class="post-title">Coaching Life Is Better Than Schooling</h3>
+              <span class="post-date" datetime="2019-04-17"
+                >April 17, 2019</span
+              >
+              <p class="post-summary">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
+                maxime adipisci incidunt voluptatum pariatur. Officia eaque
+                ipsum ducimus.
+              </p>
+              <span class="read-more">Read More..</span>
+            </div>
+          </div>
+          <div class="blog-post">
+            <div class="post-image">
+              <img
+                src="./assets/images/blog3.webp"
+                alt="Person reading business guide book"
+                width="190"
+              />
+            </div>
+            <div class="post-content">
+              <h3 class="post-title">Coaching Life Is Better Than Schooling</h3>
+              <span class="post-date" datetime="2019-04-17"
+                >April 17, 2019</span
+              >
+              <p class="post-summary">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
+                maxime adipisci incidunt voluptatum pariatur. Officia eaque
+                ipsum ducimus.
+              </p>
+              <span class="read-more">Read More..</span>
+            </div>
+          </div>
+          <div class="blog-post">
+            <div class="post-image">
+              <img
+                src="./assets/images/blog2.webp"
+                alt="Person reading business guide book"
+                width="190"
+              />
+            </div>
+            <div class="post-content">
+              <h3 class="post-title">Coaching Life Is Better Than Schooling</h3>
+              <span class="post-date" datetime="2019-04-17"
+                >April 17, 2019</span
+              >
+              <p class="post-summary">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
+                maxime adipisci incidunt voluptatum pariatur. Officia eaque
+                ipsum ducimus.
+              </p>
+              <span class="read-more">Read More..</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
     <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-info">
+          <div class="info-block">
+            <h4>Address</h4>
+            <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+          </div>
+          <div class="info-block">
+            <h4>Phone</h4>
+            <p><a href="tel:+12323235324">+1 232 3235 324</a></p>
+          </div>
+          <div class="info-block">
+            <h4>Email Address</h4>
+            <p>
+              <a href="mailto:youremail@domain.com">youremail@domain.com</a>
+            </p>
+          </div>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <input
+              type="text"
+              name="first_name"
+              placeholder="First name"
+              required
+            />
+            <input
+              type="text"
+              name="last_name"
+              placeholder="First name"
+              required
+            />
+          </div>
+          <input
+            type="email"
+            name="email"
+            placeholder="Email address"
+            required
+          />
+          <textarea
+            name="message"
+            rows="6"
+            placeholder="Write your message."
+            required
+          ></textarea>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <hr />
 
     <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-columns">
+          <!-- About Coaching -->
+          <div class="footer-column">
+            <h4>About Coaching</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+              officiis dolorem assumenda alias mollitia reprehenderit dolor
+              facilis.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Training</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Social & Newsletter -->
+          <div class="footer-column">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+              <a href="#"
+                ><i class="fab fa-facebook-f" aria-hidden="true"></i
+              ></a>
+              <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"
+                ><i class="fab fa-instagram" aria-hidden="true"></i
+              ></a>
+              <a href="#"
+                ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+              ></a>
+            </div>
+
+            <h4>Subscribe Newsletter</h4>
+            <form class="newsletter-form" action="#" method="post">
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter Email"
+                required
+              />
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script
       src="https://kit.fontawesome.com/7d39f0a187.js"
