@@ -1,0 +1,105 @@
+:root {
+  --main: #373a6d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  margin-top: 86px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.main-header {
+  background-color: var(--main);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.site-logo {
+  font-size: 32px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-navigation {
+  padding-right: 30px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.menu-item {
+  padding: 30px 20px;
+}
+
+.menu-item a,
+.nav a {
+  color: white;
+}
+
+/* Hero Section  */
+
+.hero-section {
+  margin-bottom: 86px;
+}
+
+/* ------------------Animation---------------------------- */
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter {
+  color: #fff;
+  /* font-family: monospace; */
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   /* Adjust as needed */
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
